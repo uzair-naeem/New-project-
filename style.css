@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-top: 0%;
 }
 .h{
     color: whitesmoke;
@@ -35,8 +36,52 @@ body{
     border-top: solid green 1px
 }
 .circle{
-    height: 30vh;
-    width: 0vw;
+    height: 40vh;
+    width: 20vw;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: rgb(38, 59, 59);
+    margin-left: 40%;
+    margin-top: -10%;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: 42%;
+    margin-top: -20%;
+}
+.box2{
+    width: 20vw;
+    height: 30vh;
+    border:none;
+  margin-top: -20%;
+    margin-left: 70%;
+    
+}
+.show{
+    color:rgb(111, 168, 54) ;
+}
+.big{
+    height: 80vh;
+    width: 100%;
+    border: solid green 2px;
+}
+.big2{
+    height: 80vh;
+    width: 100%;
+    border: solid green 2px;
+    margin: 1px;
+}
+.box3{
+     width: 20vw;
+    height: 30vh;
+    border:none;
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.para{
+    color: black;
 }
