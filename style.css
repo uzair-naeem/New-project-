@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(31, 11, 11);
+}
+.navbar{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.h{
+    color: whitesmoke;
+}
+.h:hover{
+    color: rgb(111, 168, 54);
+}
+.navbar :hover{
+    color: rgb(111, 168, 54);
+}
+.box{
+    width: 20vw;
+    height: 30vh;
+    border:none;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.iam{
+    color: whitesmoke;
+}
+.adams{
+    color:  whitesmoke;
+}
+.top{
+    width: 10vw;
+    height: 2vh;
+    border-top: solid green 1px
+}
+.circle{
+    height: 30vh;
+    width: 0vw;
+    border-radius: 50%;
+    background-color: aqua;
+}
