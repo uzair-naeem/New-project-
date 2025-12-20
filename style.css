@@ -39,7 +39,7 @@ body{
     height: 40vh;
     width: 20vw;
     border-radius: 50%;
-    background-color: rgb(38, 59, 59);
+    background-color: rgb(97, 55, 55);
     margin-left: 40%;
     margin-top: -10%;
 }
@@ -51,6 +51,10 @@ body{
     overflow: hidden;
     margin-left: 42%;
     margin-top: -20%;
+}
+.twitter{
+    height: 60vh;
+    width: 30vw;
 }
 .box2{
     width: 20vw;
