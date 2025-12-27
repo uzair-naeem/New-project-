@@ -86,6 +86,7 @@ right: 30px;
     border: none;
     background-color: #494949;
 }
+
 .big2{
     height: 80vh;
     width: 100%;
@@ -187,4 +188,26 @@ border-bottom: solid green 1px;
     height: 1vh;
 width: 15vw;
 border-bottom: solid green 1px;
+   }
+
+   .parent{
+    border: solid black 2px;
+    height: 4vh;
+    width: 30vw;
+    background-color: #463e3e;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin-top: -46%;
+    margin-left: 30%;
+   }
+   .child{
+    height: 3vh;
+    width: 7vw;
+    border: solid black 1px;
+    gap: 8px;
+    background-color: #c4b6b6;
+   }
+   @media screen {
+    
    }
