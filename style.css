@@ -1,213 +1,101 @@
-body{
-    background-color: black
-}
-.navbar{
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: -30px;
-    list-style: none;
-}
-.font{
-    display: flex;
-justify-content: flex-end;
-gap: 20px;
-position: relative;
-top: -20px;
-right: 30px;
-}
-.font :hover{
-    color: aqua;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.h{
-    color: whitesmoke;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    padding: 20px;
 }
-.h:hover{
-    color: rgb(111, 168, 54);
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.navbar :hover{
-    color: rgb(111, 168, 54);
+
+.budget-expenses {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
-.box{
-    width: 20vw;
-    height: 30vh;
-    border:none;
-    margin-top: 50px;
-    margin-left: 30px;
+
+.budget, .expenses {
+    width: 45%;
 }
-.iam{
-    color: whitesmoke;
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-.adams{
-    color:  whitesmoke;
-}
-.top{
-    width: 10vw;
-    height: 2vh;
-    border-top: solid green 1px
-}
-.circle{
-    height: 40vh;
-    width: 20vw;
-    border-radius: 50%;
-    background-color: rgb(97, 55, 55);
-    margin-left: 40%;
-    margin-top: -10%;
-}
-.image{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    overflow: hidden;
-    margin-left: 42%;
-    margin-top: -20%;
-}
-.twitter{
-    height: 60vh;
-    width: 30vw;
-}
-.box2{
-    width: 20vw;
-    height: 30vh;
-    border:none;
-  margin-top: -20%;
-    margin-left: 70%;
-    
-}
-.show{
-    color:rgb(111, 168, 54) ;
-}
-.big{
-    height: 80vh;
+
+input {
     width: 100%;
-    border: none;
-    background-color: #494949;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
-.big2{
-    height: 80vh;
-    width: 100%;
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
     border: none;
-    background-color: #3199B0;
-  margin-top: -50px;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.box3{
-     width: 20vw;
-    height: 30vh;
-    border:none;
-    color: whitesmoke;
-    margin-top: 50px;
-    margin-left: 30px;
-}
-.biodata{
-    display: flex;
-}
-.bio{
-    display: flex;
-}
-.num{
-    color: green;
-   
-}
-.pro{
-    color: black;
-}
-.contact{
-     color: green;
-     margin-left: 70px;
-}
-.con{
-    color: black;
-}
-.community{
-     color: green;
-}
-.comm{
-    color: black;
-}
-.years{
-    color: green;
-    margin-left: 30px;
-}
-.year{
-    color: black;
-}
-.para{
-    color: black;
-}
-.flex{
-    height: 10%;
-    width: 20%;
-    border: none;
-    margin-left: 50%;
-    margin-top: -25%;
 
+button:hover {
+    background-color: #45a049;
 }
-.ux{
-    margin-left: -60%;
-    margin-top: -30%;
-    height: 10vh;
-    width: 10vw;
-    overflow: hidden;
-}
-.ui{
-height: 1vh;
-width: 15vw;
-border-bottom: solid green 1px;
-}
-.web{
-    height: 10%;
-    width: 20%;
-    border: none;
-    margin-left: 50%;
-   
-}
-.front{
-     margin-left: -60%;
-    margin-top: -30%;
-    height: 10vh;
-    width: 10vw;
-    overflow: hidden;}
-    .dev{
-        .
-height: 1vh;
-width: 15vw;
-border-bottom: solid green 1px;
-    }
-    .app{
-          margin-left: -60%;
-    margin-top: -30%;
-    height: 10vh;
-    width: 10vw;
-    overflow: hidden;
-}
-   .class{
-    height: 1vh;
-width: 15vw;
-border-bottom: solid green 1px;
-   }
 
-   .parent{
-    border: solid black 2px;
-    height: 4vh;
-    width: 30vw;
-    background-color: #463e3e;
+.summary {
     display: flex;
-    justify-content: center;
-    padding: 4px;
-    margin-top: -46%;
-    margin-left: 30%;
-   }
-   .child{
-    height: 3vh;
-    width: 7vw;
-    border: solid black 1px;
-    gap: 8px;
-    background-color: #c4b6b6;
-   }
-   @media screen {
-    
-   }
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.summary div {
+    width: 30%;
+    text-align: center;
+}
+
+.summary span {
+    font-weight: bold;
+}
+
+.expense-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-list li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.edit, button.delete {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+button.edit:hover, button.delete:hover {
+    background-color: #1e88e5;
+}
